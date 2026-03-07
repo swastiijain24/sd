@@ -1,0 +1,27 @@
+func req 
+entry
+vehicle arrives
+see slot for vehicle type 
+if yes assign and give ticket 
+else no slot 
+vehicle parks 
+slot occupied
+
+exit 
+gives ticket
+validate 
+calculate price
+process payment with retries 
+give receipt 
+slot empty 
+deactivate ticket  
+entities
+
+
+
+controller 
+entry {
+    vicle created //will save ticket in database 
+    slotservice - allocateslot(type)(return slot or null) 
+} 
+exit 
