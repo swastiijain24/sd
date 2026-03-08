@@ -1,0 +1,50 @@
+func req 
+
+main features 
+withdraw
+deposit 
+check balance 
+transfer from one bank to other 
+change pin 
+
+withdraw
+put card - validate
+enter pin - validate
+choose op 
+enter amount 
+update amount
+get amount 
+return 
+
+deposit 
+put card 
+enter pin 
+choose op 
+enter amount 
+update amount 
+return 
+
+check balance 
+..
+..
+read amount
+return 
+
+transfer
+...
+
+change pin 
+put card 
+enter pin - forgot/reset pin 
+send otp 
+user enters otp 
+verify otp 
+take new pin 
+update pin 
+return 
+
+entities - 
+card pin resetpin account 
+
+controller-usecase
+service -reusable code 

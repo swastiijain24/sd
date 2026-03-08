@@ -4,6 +4,6 @@ class paymentService{
    }
 
    void processpayment(int price, ticket* ticket, paymentadapter* adapter){
-
+      
    }
 }
